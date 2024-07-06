@@ -1,0 +1,13 @@
+train_path: '/data2/junbo/sapien4/train'
+test_path: '/data2/junbo/sapien4/test'
+train_categories: ['StorageFurniture']
+test_categories: ['StorageFurniture']
+joint_num: 2
+resolution: 2.5e-2
+# resolution: 1e-2
+receptive_field: 10
+normalize: 'bound'
+# normalize: 'none'
+sample_points_num: 1024
+rgb: False
+denoise: False

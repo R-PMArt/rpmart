@@ -1,0 +1,15 @@
+{
+    "intrinsics": {
+        "fovx": [70, 70], 
+        "fovy": [40, 60], 
+        "height": 480, 
+        "width": 640, 
+        "near": 0.1, 
+        "far": 100.0
+    }, 
+    "extrinsics": {
+        "dist": [0.6, 1.2], 
+        "phi": [0, 60], 
+        "theta": [120, 240]
+    }
+}

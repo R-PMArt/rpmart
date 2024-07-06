@@ -1,0 +1,21 @@
+seed: 42
+device: 0
+batch_size: 16
+num_workers: 8
+epoch_num: 200      # microwave
+# epoch_num: 200      # storagefurniture
+# epoch_num: 300      # refrigerator
+# epoch_num: 120      # safe
+# epoch_num: 200      # washingmachine
+# epoch_num: 100      # drawer
+lr: 1e-3
+weight_decay: 0
+lambda_rot: 0.1
+lambda_afford: 1.0
+lambda_conf: 0.5
+val_training: True
+val_training_num: 64
+val_testing: True
+val_testing_num: 64
+test_train: True
+test_test: True

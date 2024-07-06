@@ -1,0 +1,38 @@
+general:
+  seed: 42
+  device: 0
+  batch_size: 16
+  num_workers: 8
+  # abbr: 'none_norm_FTTTT'
+  abbr: 'formal_drawer'
+
+dataset:
+  path: "/data2/junbo/sapien4/test"
+  categories: ['Drawer']
+  joint_num: 3
+  # resolution: 2.5e-2
+  resolution: 1e-2
+  receptive_field: 10
+  denoise: False
+  # normalize: 'median'
+  normalize: 'none'
+  sample_points_num: 1024
+
+algorithm:
+  sample_tuples_num: 100000
+  tuple_more_num: 0
+  translation2pc: False
+  rotation_cluster: True
+  multi_candidate: True
+  candidate_threshold: 0.5
+  rotation_multi_neighbor: True
+  neighbor_threshold: 5
+  # angle_tol: 1.5              # 10 degree
+  angle_tol: 0.35             # 5 degree
+  voting_num: 120             # 3 degree
+  bmm_size: 100000
+
+
+hydra:
+  run:
+    dir: "./outputs/test_gt/${general.abbr}_${now:%Y_%m_%d_%H_%M_%S}"

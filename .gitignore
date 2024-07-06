@@ -1,0 +1,14 @@
+deps/*
+!deps/.gitkeep
+outputs/*
+!outputs/.gitkeep
+src_shot/build/*
+**/__pycache__
+license/*
+!license/.gitkeep
+*.tar
+*.so
+.TimeRecord
+imgui.ini
+temp_data/*
+!temp_data/.gitkeep

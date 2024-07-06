@@ -1,0 +1,12 @@
+defaults:
+  - dataset: formal_microwave
+  - algorithm: formal
+  - training: formal
+  - _self_
+
+abbr: 'formal_microwave'
+debug: False
+
+hydra:
+  run:
+    dir: "./outputs/train/${abbr}_${now:%Y_%m_%d_%H_%M_%S}"

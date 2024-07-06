@@ -1,0 +1,11 @@
+path: '/data2/junbo/RealArt-6/with_table/microwave'
+instances: ['0_with_chaos', '1_with_chaos', '2_with_chaos', '3_with_chaos', '4_with_chaos']
+joint_num: 1
+# resolution: 2.5e-2
+resolution: 1e-2
+receptive_field: 10
+# normalize: 'bound'
+normalize: 'none'
+sample_points_num: 1024
+rgb: False
+denoise: False

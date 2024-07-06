@@ -1,0 +1,29 @@
+sampling:
+  sample_tuples_num: 100000
+  tuple_more_num: 3
+
+shot_encoder:
+  hidden_dims: [128, 128, 128, 128, 128]
+  feature_dim: 64
+  bn: False
+  ln: False   # bn and ln can only be set one
+  dropout: 0
+
+encoder:
+  hidden_dims: [128, 128, 128, 128, 128]
+  bn: False
+  ln: False   # bn and ln can only be set one
+  dropout: 0
+
+voting:
+  rot_bin_num: 36       # 5 degree
+  voting_num: 120       # 3 degree
+  angle_tol: 1.5        # 10 degree
+  # angle_tol: 0.35       # 5 degree
+  translation2pc: False
+  rotation_cluster: False
+  multi_candidate: False
+  candidate_threshold: 0.5
+  rotation_multi_neighbor: False
+  neighbor_threshold: 10
+  bmm_size: 100000

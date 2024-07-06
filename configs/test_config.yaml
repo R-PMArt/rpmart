@@ -1,0 +1,34 @@
+dataset:
+  noise: True
+  distortion_rate: 0.1
+  distortion_level: 0.01
+  outlier_rate: 0.001
+  outlier_level: 0.5
+algorithm:
+  voting:
+    voting_num: 120       # 3 degree
+    # angle_tol: 1.5        # 10 degree
+    angle_tol: 0.35       # 5 degree
+    translation2pc: False
+    rotation_cluster: True
+    multi_candidate: True
+    candidate_threshold: 0.5
+    rotation_multi_neighbor: True
+    neighbor_threshold: 5
+    bmm_size: 100000
+testing:
+  seed: 42
+  device: 0
+  batch_size: 16
+  num_workers: 8
+  training: False
+
+trained:
+  path: "./outputs/train/formal_microwave_2024_01_16_12_16_57"
+
+abbr: 'noise_microwave'
+vis: False
+
+hydra:
+  run:
+    dir: "./outputs/test/${abbr}_${now:%Y_%m_%d_%H_%M_%S}"

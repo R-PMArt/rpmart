@@ -1,0 +1,14 @@
+requests
+ConfigArgParse
+trimesh
+tqdm
+Pillow
+scipy
+open3d==0.18.0
+opencv-python
+omegaconf
+hydra-core
+scikit-learn
+tensorboard
+transformations
+paramiko

@@ -1,0 +1,30 @@
+{
+    "scale_min": 0.8, 
+    "scale_max": 1.1, 
+    "Microwave": {
+        "size": 0.4, 
+        "joint_num": 1
+    }, 
+    "StorageFurniture": {
+        "size": 0.375, 
+        "joint_num": 2, 
+        "joint_types": ["prismatic", "revolute"]
+    }, 
+    "Refrigerator": {
+        "size": 0.4, 
+        "joint_num": 1
+    }, 
+    "Safe": {
+        "size": 0.4, 
+        "joint_num": 1
+    }, 
+    "WashingMachine": {
+        "size": 0.15, 
+        "joint_num": 1
+    }, 
+    "Drawer": {
+        "size": 0.4, 
+        "joint_num": 3, 
+        "joint_types": ["prismatic", "prismatic", "prismatic"]
+    }
+}
