@@ -1,17 +1,18 @@
 # RPMArt
 
 <a href='https://r-pmart.github.io/'>
-  <img src='https://img.shields.io/badge/Homepage-Website-green?style=flat&logo=homepage&logoColor=green' alt='Website'>
+  <img src='https://img.shields.io/badge/Homepage-r--pmart.github.io-green?style=flat&logo=homepage&logoColor=green' alt='Website'>
 </a>
 <a href='https://arxiv.org/abs/2403.16023'>
-  <img src='https://img.shields.io/badge/Arxiv-Paper-orange?style=flat&logo=arxiv&logoColor=orange' alt='Paper'>
+  <img src='https://img.shields.io/badge/Arxiv-2403.16023-orange?style=flat&logo=arxiv&logoColor=orange' alt='Paper'>
 </a>
 <a href='https://iros2024-abudhabi.org'>
   <img src='https://img.shields.io/badge/IROS-2024-blue?style=flat&logo=ieee&logoColor=blue' alt='IROS'>
 </a>
 <br/>
 
-<img src="assets/teaser.png" alt="teaser" width="500" />
+<!-- <img src="assets/teaser.jpg" alt="teaser" width="500" /> -->
+![teaser](assets/teaser.jpg)
 
 Official implementation for the paper [RPMArt: Towards Robust Perception and Manipulation for Articulated Objects](https://arxiv.org/abs/2403.16023), accepted by [IROS 2024](https://iros2024-abudhabi.org).
 
@@ -132,7 +133,7 @@ For more information, please visit our [project website](https://r-pmart.github.
     ```bash
     # server side
     bash scripts/real_service.sh
-
+    
     # robot side
     python real_eval.py
     ```
