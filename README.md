@@ -145,11 +145,13 @@ For more information, please visit our [project website](https://r-pmart.github.
 ## ✍ Citation
 If you find our work useful, please consider citing: 
 ```bibtex
-@article{wang2024rpmart,
+@inproceedings{wang2024rpmart,
   title={RPMArt: Towards Robust Perception and Manipulation for Articulated Objects},
   author={Wang, Junbo and Liu, Wenhai and Yu, Qiaojun and You, Yang and Liu, Liu and Wang, Weiming and Lu, Cewu},
-  journal={arXiv preprint arXiv:2403.16023},
-  year={2024}
+  booktitle={2024 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year={2024},
+  pages={7270-7277},
+  doi={10.1109/IROS58592.2024.10802368}
 }
 ```
 
